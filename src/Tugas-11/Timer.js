@@ -1,10 +1,10 @@
-import React from 'react';
+import React from 'react'
 
 class Timer extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            time: 1000
+            time: 0
         }
     }
 
@@ -24,7 +24,7 @@ class Timer extends React.Component {
 
     tick() {
         this.setState({
-            time: this.state.time - 1
+            time: this.state.time + 1
         });
     }
 
@@ -40,4 +40,4 @@ class Timer extends React.Component {
     }
 }
 
-export default Timer;
+export default Timer
