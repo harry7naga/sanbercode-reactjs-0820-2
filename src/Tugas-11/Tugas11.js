@@ -20,7 +20,7 @@ class Tugas11 extends React.Component {
     render() {
         return (
             <>
-                <h1 style={{ textAlign: "center" }}>
+                <h1 >
                     Sekarang jam : {this.state.time.toLocaleTimeString()}
                 </h1>
             </>

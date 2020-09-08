@@ -28,7 +28,7 @@ class Tugas10 extends React.Component {
                                     <tr key={index} >
                                         <td style={{ backgroundColor: "salmon" }}>{item.nama}</td>
                                         <td style={{ backgroundColor: "salmon" }}>{item.harga}</td>
-                                        <td style={{ backgroundColor: "salmon" }}>{item.berat}</td>
+                                        <td style={{ backgroundColor: "salmon" }}>{item.berat / 1000} kg</td>
                                     </tr>
                                 )
                             })

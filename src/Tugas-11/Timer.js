@@ -7,9 +7,9 @@ class Timer extends Component {
 
     render() {
         return (
-            <div style={{ textAlign: 'right' }}>
+            <h1 style={{ textAlign: 'right' }}>
                 {`Hitung Mundur : ${this.props.countdown}`}
-            </div>
+            </h1>
         );
     }
 }

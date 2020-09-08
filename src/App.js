@@ -1,17 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Timer from './Tugas-11/Timer';
-import Tugas11 from './Tugas-11/Tugas-11';
+import Tugas10 from './Tugas-10/Tugas10'
+import LifeCycle from './Tugas-11/LifeCycle';
 
 
 
 function App() {
   return (
     <div>
-      <Tugas11 />
-
-      <Timer />
+      <Tugas10 />
+      <LifeCycle />
     </div>
   );
 }

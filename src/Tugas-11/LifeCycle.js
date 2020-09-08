@@ -1,6 +1,6 @@
 /* eslint-disable react/destructuring-assignment */
 import React, { Component } from 'react';
-import Tugas11 from './Tugas-11';
+import Tugas11 from './Tugas11';
 import Timer from './Timer';
 
 class LifeCycle extends Component {
@@ -33,8 +33,8 @@ class LifeCycle extends Component {
     render() {
         return (
             <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                {this.state.display && <Clock />}
-                {this.state.display && <Countdown countdown={this.state.countdown} />}
+                {this.state.display && <Tugas11 />}
+                {this.state.display && <Timer countdown={this.state.countdown} />}
             </div>
         );
     }
