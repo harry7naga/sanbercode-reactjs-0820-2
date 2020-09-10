@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Movie from './Materi-14/Movie';
+import Fruit from './Tugas-14/Fruit';
 // import Tugas10 from './Tugas-10/Tugas10'
 // import LifeCycle from './Tugas-11/LifeCycle';
 // import Coba from './Tugas-12/coba';
@@ -20,7 +21,7 @@ function App() {
       {/* <Tugas13 /> */}
       {/* <Example /> */}
       {/* <DaftarPeserta /> */}
-      <Movie />
+      <Fruit />
     </div>
   );
 }
