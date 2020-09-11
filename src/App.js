@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Movie from './Materi-14/Movie';
 import Fruit from './Tugas-14/Fruit';
+import Routes from './Tugas-15/Routes';
 // import Tugas10 from './Tugas-10/Tugas10'
 // import LifeCycle from './Tugas-11/LifeCycle';
 // import Coba from './Tugas-12/coba';
@@ -17,12 +18,12 @@ import Fruit from './Tugas-14/Fruit';
 
 function App() {
   return (
-    <div>
+    <Router>
       {/* <Tugas13 /> */}
       {/* <Example /> */}
       {/* <DaftarPeserta /> */}
-      <Fruit />
-    </div>
+      <Routes />
+    </Router>
   );
 }
 
